@@ -1,0 +1,17 @@
+*UI components
+- Danh sách khảo sát cần được thu thập thông tin, được công ty đăng.
+- Mỗi item gồm
+  - Tên khảo sát
+  - Thời gian publish
+  - Mô tả khảo sát
+  - Số tiền nhận được cho mỗi khảo sát mà khảo sát nhận được, (khảo sát được công ty coi là hợp lệ)
+*Precondition
+- Nguoi dung dang nhap voi permission la nguoi khao sat.
+*Basic flow
+1. Tab account mặc định hiển thị đầu tiên sau khi đăng nhập.
+2. User chọn tab survey, tab new trong màn hình survey mặc định hiển thị đầu tiên.
+ (AF1)
+*Alternative flow
+AF1
+  User click vô item khảo sát, app sẽ mở thông tin tổng quan khảo sát tương ứng MSUI-007 
+  

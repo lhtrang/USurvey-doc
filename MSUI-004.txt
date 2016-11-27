@@ -1,0 +1,17 @@
+*UI components
+- Danh sách khảo sát của người khảo sát yêu cầu (survey request) được công ty chấp nhận và đã hết hạn
+- Mỗi item gồm
+  - Tên khảo sát
+  - Thời gian publish
+  - Mô tả khảo sát
+  - Số tiền nhận được cho mỗi khảo sát mà khảo sát nhận được, (khảo sát được công ty coi là hợp lệ)
+  - Số tiền người khảo sát nhận được.
+*Precondition
+- Nguoi dung dang nhap voi permission la nguoi khao sat.
+*Basic flow
+1. Click tab survey
+2. User chọn tab completed
+ (AF1)
+*Alternative flow
+AF1
+  User click vô item khảo sát trong trạng thái đã duyệt, app sẽ mở thông tin chi tiết khảo sát tương ứng MSUI-010

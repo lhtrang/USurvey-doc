@@ -1,0 +1,16 @@
+*UI Component
+Chia ra 4 phần
+ 1. Thông tin công ty, thời gian publish khảo sát, các thông tin đã được verify: thông tin cơ bản, điện thoại, email 
+ 2. Thông tin khảo sát: deadline, số lượng khảo sát cần, số tiền cho 1 khảo sát, địa điểm khảo sát
+ 3. Mô tả tổng quan về khảo sát, đối tượng
+ 4. Nút đăng ký khảo sát
+*Precondition
+ - Nguoi dung dang nhap voi permission la nguoi khao sat.
+ - Có danh sách survey mới ở MSUI-002
+*Basic flow
+ 1. User click đăng ký khảo sát
+ 2. Hệ thống thông báo thành công và chuyển sang MSUI-003
+ (AF1)
+*Alternative flow
+AF1
+ Nếu survey không cần duyệt sẽ chuyển sang MSUI-006

@@ -1,0 +1,10 @@
+* UI components
+ - Thông tin tài khoản: Avatar, rating, số tiền hiện có, email, địa chỉ
+ - Thống kê: tổng số survey, số survey được chấp nhận và nhận được tiền, số survey bị từ chối và không nhận được tiền.
+ - Newsfeed: 
+   Thông báo survey được công ty chấp nhận để khảo sát, survey bị công ty từ chối không thể khảo sát, 
+   Thông báo survey đã submit chấp nhận được tiền, survey đã submit bị từ chối và không nhận được tiền.
+* Precondition
+- Nguoi dung dang nhap voi permission la nguoi khao sat.
+* Basic flow
+1. Tab account hiển thị đầu tiên sau khi đăng nhập.

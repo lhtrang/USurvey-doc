@@ -1,0 +1,22 @@
+*UI component
+Bao gồm
+ 1. Thông tin công ty, thời gian publish khảo sát, các thông tin đã được verify: thông tin cơ bản, điện thoại, email 
+ 2. Thông tin khảo sát: deadline, số lượng khảo sát cần, số tiền cho 1 khảo sát, địa điểm khảo sát
+ 3. Mô tả tổng quan về khảo sát, đối tượng
+ 4. Thống kê tổng số khảo sát đã submit, số được chấp nhận là hợp lệ, không hợp lệ, đang chờ duyệt Survey submission có 3 trạng thái
+   - Hợp lệ: được công ty kiểm duyệt, chấp nhận và tính tiền.
+   - Không hợp lệ: được công ty kiểm duyệt, không chấp nhận và không tính tiền.
+   - Chờ duyệt: đang chờ công ty duyệt.
+ 5. Danh sách khảo sát đã thực hiện order theo thời gian submit.
+ 6. Nút submit khảo sát
+*Precondition
+ - Nguoi dung dang nhap voi permission la nguoi khao sat.
+ - Có danh sách survey được duyệt ở MSUI-003
+*Basic flow
+ (AF1)
+ 1. Người khảo sát click nút submit
+ 2. App chuyển sang trang khảo sát MSUI-008
+*Alternative flow
+AF1 Người khảo sát có thể xem lại những khảo sát đã làm
+ 1.Người khảo sát click vô item trong danh sách khảo sát đã thực hiện.
+ 2.App chuyển sang trang MSUI-011

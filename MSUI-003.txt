@@ -1,0 +1,21 @@
+*UI components
+- Danh sách khảo sát của người khảo sát yêu cầu (survey request)
+- Mỗi item gồm
+  - Tên khảo sát
+  - Thời gian publish
+  - Mô tả khảo sát
+  - Số tiền nhận được cho mỗi khảo sát mà khảo sát nhận được, (khảo sát được công ty coi là hợp lệ)
+  - Trạng thái của request survey 
+    + Chờ duyệt: Đợi công ty đồng ý và cho phép làm khảo sát.
+	+ Đã duyệt: Công ty đã đồng ý và người khảo sát có thể tiến hành khảo sát
+	+ Từ chối: Công ty không đồng ý, người khảo sát không thể tiến hành khảo sát
+*Precondition
+- Nguoi dung dang nhap voi permission la nguoi khao sat.
+*Basic flow
+1. Tab account mặc định hiển thị đầu tiên sau khi đăng nhập.
+2. User chọn tab my survey
+ (AF1)
+*Alternative flow
+AF1
+  User click vô item khảo sát trong trạng thái đã duyệt, app sẽ mở thông tin chi tiết khảo sát tương ứng MSUI-006
+  User click vô item khảo sát trong trạng thái Chờ duyệt hoặc từ chối, app sẽ mở thông tin tổng quan khảo sát tương ứng MSUI-007

@@ -1,0 +1,19 @@
+*UI Component
+ 1. left header button Quay về
+ 2. title câu hỏi khảo sát thứ bao nhiêu trên tổng số
+ 3. Câu hỏi khảo sát: có 12 dạng câu hỏi.
+ 4. Nút trước và sau dùng để chuyển câu hỏi.
+ 5. right header button Hoàn tất
+*Basic flow
+ (AF1)
+ 1. Người khảo sát nhập câu trả lời (câu hỏi có dấu *) hoặc không (câu hỏi không có dấu *)
+  (AF2, AF3)
+ 2. Người khảo sát click nút sau.
+*Alternative flow
+AF1 người khảo sát click nút quay về
+ - quay về trang MSUI-006
+AF2 Người khảo sát click nút trước
+ - quay về câu hỏi trước đó
+AF3 Người khảo sát click Hoàn tất
+ - Khi tới câu trả lời cuối cùng, nút Hoàn tất xuất hiện, cho phép người khảo sát click để submit.
+ - App quay về MSUI-006 
